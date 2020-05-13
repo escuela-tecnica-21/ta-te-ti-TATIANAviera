@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
+// EL JUEGO NO COMPILA AYUDA PROFE NOSE QUE HACER. quiero saber en que me equivoque.
 void mostrarTablero(int tablero[3][3]);
 int posiciones_tablero(int tablero[3][3]);
 int jugada_Usuario(int posiciones_tablero());
@@ -63,7 +64,7 @@ int posiciones_tablero(int tablero[3][3])
 int jugada_Usuario(int posiciones_tablero)
 {
     int eleccion = 0;
-    printf("¿Donde desea poner '0' (1-9)? \n");
+    printf("Â¿Donde desea poner '0' (1-9)? \n");
     scanf("%d", &eleccion);
     return eleccion - 1;
 
